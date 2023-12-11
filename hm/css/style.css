@@ -1,0 +1,108 @@
+
+
+.conteiner{
+width: 1165px;
+margin: 0 auto;
+}
+.navigation{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 40px;
+}
+.navigation-logo{
+    display: flex;
+}
+.navigation-logo-art{
+width: 56px;
+height: 42px;
+}
+.navigation-logo-text{
+    font-family: 'Marko One';
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #8CC5F9;
+
+}
+.navigation-menu{
+display: flex;
+}
+.navigation-menu-item{
+    list-style-type: none;
+    margin-right: 43px;
+}
+.navigation-menu-link{
+    font-family: 'Rubik';
+    text-decoration: none;
+    color: #08090A;
+}
+    .navigation-menu-link:visited {
+        color: #000;
+    }
+    .navigation-menu-link:hover {
+        color: #8CC5F9; 
+        border-bottom: 4px solid #8CC5F9 ;
+    }
+
+
+.navigation-lg{
+display: flex;
+align-items: center;
+}
+.navigation-lg-text{
+    color: #4F4F4F;
+}
+.navigation-lg-menu{
+margin-left: 5px;
+}
+/*********************** H E R O ***********************/
+.hero-bg{
+background-color: #fff;
+}
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+    padding: 0 150px;
+}
+.hero__content{
+width: 585px;
+}
+.hero__title{
+    font-weight: 700;
+    font-size: 47px;
+    line-height: 70px;
+    color: #8CC5F9;
+    
+}
+.hero__text{
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 30px;
+    color: #4F5665;
+    margin: 20px 0;
+}
+.hero__btn{
+    display: inline-block;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    background-color: #8CC5F9;
+    text-emphasis-color: #fff;
+    color: #fff;
+    width: 265px;
+    padding: 20px;
+
+    box-shadow: 0px 4px 18px rgba(41, 41, 41, 0.1);
+    border-radius: 6px;
+    
+}
+
+.hero-img{
+    width: 546px;
+    height: 281px;
+}
